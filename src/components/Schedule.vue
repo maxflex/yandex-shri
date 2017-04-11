@@ -119,7 +119,7 @@ export default {
     margin-left: 3px;
   }
   .filter {
-    width: 830px;
+    max-width: 830px;
     margin: 0 auto;
     padding: 20px 100px;
     display: flex;
@@ -229,7 +229,6 @@ export default {
     .schedule {
       font-size: 12px;
       width: auto;
-      margin: 0;
     }
     .workplace {
       display: none;
@@ -239,5 +238,17 @@ export default {
     .schedule {
       width: auto;
     }
+  }
+  /* Portrait */
+  @media only screen
+    and (min-device-width: 320px)
+    and (max-device-width: 480px)
+    and (-webkit-min-device-pixel-ratio: 2)
+    and (orientation: portrait) {
+      .schedule {
+        td {
+          padding: 10px;
+        }
+      }
   }
 </style>

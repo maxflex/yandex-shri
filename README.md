@@ -11,6 +11,8 @@
 - дополнительную информацию о лекторе или проведённой лекции
 - отфильтровать по школам, лекторам и датам
 
+[Live Demo]
+
 ### Компоненты
 Приложение построено на [single-file] компонентах с расширением `.vue`
 
@@ -37,3 +39,4 @@
 [Webpack]: <https://github.com/webpack/webpack>
 [single-file]: <https://vuejs.org/v2/guide/single-file-components.html>
 [state management]: <https://vuex.vuejs.org/en/intro.html>
+[Live Demo]: <https://maxflex.github.io/yandex-shri>

@@ -65,9 +65,11 @@ export default {
     }
   }
   @media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {
+    html, body {
+      overflow-x: hidden;
+    }
     body {
-      overflow: hidden;
-      overflow-y: auto;
+      position: relative;
       font-size: 16px;
     }
     h1 {
