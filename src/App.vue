@@ -73,7 +73,7 @@ export default {
       font-size: 16px;
     }
     h1 {
-      padding: 20px 22px;
+      padding: 20px 25px;
       font-size: 30px;
     }
     #app {
